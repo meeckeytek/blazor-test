@@ -1,0 +1,36 @@
+﻿
+.down-arrow {
+    margin: -14rem auto 14rem auto;
+    width: 55px;
+}
+
+.arrow-wrapper {
+    position: absolute;
+    left: 50%;
+    z-index: 9999;
+    transform: translateX(-50%);
+}
+
+@media (min-width: 874px) {
+    .professional-experience-mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 874px) {
+    .professional-experience {
+        display: none;
+    }
+}
+
+@media (width > 874px) {
+    .professional-experience-mobile {
+        display: none;
+    }
+}
+
+@media (width <= 874px)  {
+    .professional-experience {
+        display: none;
+    }
+}

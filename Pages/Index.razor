@@ -1,0 +1,8 @@
+﻿@page "/"
+@inject NavigationManager nav
+
+<div>
+    Hello world
+    <button @onclick=@(() => nav.NavigateTo("/test")) >Navigate</button>
+</div>
+
