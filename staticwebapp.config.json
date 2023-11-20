@@ -1,5 +1,23 @@
 {
   "navigationFallback": {
-      "rewrite": "index.html"
+    "rewrite": "index.html"
+  },
+  "globalHeaders": {
+    "Content-Encoding": [
+      {
+        "fileMatch": ".br",
+        "encoding": "br"
+      },
+      {
+        "fileMatch": ".gz",
+        "encoding": "gzip"
+      }
+    ],
+    "Vary": [
+      {
+        "fileMatch": ".*",
+        "value": "Accept-Encoding"
+      }
+    ]
   }
 }
