@@ -19,12 +19,6 @@
         "fileMatch": ".gz",
         "encoding": "gzip"
       }
-    ],
-    "Vary": [
-      {
-        "fileMatch": ".*",
-        "value": "Accept-Encoding"
-      }
     ]
   }
 }
