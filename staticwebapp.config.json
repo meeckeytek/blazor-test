@@ -1,24 +1,5 @@
 {
   "navigationFallback": {
-    "rewrite": "/index.html",
-    "exclude": [ "/_framework/*", "/css/*", "*.{js,map,css,png,ico,svg}" ]
-  },
-  "routes": [
-    {
-      "route": "/*",
-      "rewrite": "/index.html"
-    }
-  ],
-  "globalHeaders": {
-    "Content-Encoding": [
-      {
-        "fileMatch": ".br",
-        "encoding": "br"
-      },
-      {
-        "fileMatch": ".gz",
-        "encoding": "gzip"
-      }
-    ]
+      "rewrite": "index.html"
   }
 }
